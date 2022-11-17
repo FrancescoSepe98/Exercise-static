@@ -10,7 +10,7 @@ public class Badge {
      * Ci permette di incrementare la variabile statica totalNumberOfEmployees, tenendo quindi traccia del totale degli
      * employee
      */
-    public static void keepTrackOfEmployeesNumber(){
+    private static void keepTrackOfEmployeesNumber(){
         totalNumberOfEmployees++;
     }
 
